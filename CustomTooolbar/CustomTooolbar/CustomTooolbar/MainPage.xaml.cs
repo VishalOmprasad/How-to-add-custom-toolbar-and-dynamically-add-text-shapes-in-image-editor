@@ -47,10 +47,6 @@
             {
                 imageEditor.Rotate();
             }
-            else if (toolbarItem.Name == "CropImage")
-            {
-                imageEditor.ToggleCropping();
-            }
         }
 
     }
