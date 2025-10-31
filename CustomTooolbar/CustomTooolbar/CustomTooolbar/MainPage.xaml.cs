@@ -19,7 +19,6 @@
             imageEditor.ToolbarSettings.ToolbarItems.Add(new FooterToolbarItem() { Name = "AddShape", Text = "AddShape" });
             imageEditor.ToolbarSettings.ToolbarItems.Add(new FooterToolbarItem() { Name = "RotateImage", Icon = ImageSource.FromResource("CustomTooolbar.Icons.rotatepic.png") });
             imageEditor.ToolbarSettings.ToolbarItems.Add(new FooterToolbarItem() { Name = "FlipImage", Text = "Flip" });
-            imageEditor.ToolbarSettings.ToolbarItems.Add(new FooterToolbarItem() { Name = "CropImage", Text = "Crop" });
 
             imageEditor.ToolbarSettings.ToolbarItemSelected += ToolbarSettings_ToolbarItemSelected;
         }
